@@ -8,7 +8,7 @@ public class LevelGenerator : MonoBehaviour {
 
 	public int numberOfPlatforms = 200;
 	public float levelWidth = 3f;
-	public float minY = 1.5f;
+	public float minY = 3.3f;
 	public float maxY = 3.5f;
 
 	// Use this for initialization
