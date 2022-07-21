@@ -592,7 +592,7 @@ MonoBehaviour:
     type: 3}
   numberOfPlatforms: 200
   levelWidth: 3
-  minY: 0.2
+  minY: 1.5
   maxY: 1.5
 --- !u!4 &1547923884
 Transform:
