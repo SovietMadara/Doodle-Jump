@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
+
 public class Player : MonoBehaviour {
 
+	
 	public float movementSpeed = 10f;
+	
+	
 
 	Rigidbody2D rb;
 
