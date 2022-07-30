@@ -1,15 +1,18 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 
-public class Score : MonoBehaviour
+ public class Score : MonoBehaviour
 {
-
+    
     public Transform player;
     public Text scoreText;
-    public double scoreText1;
+    public float scoreText1;
     public Text finalScore;
-    public double finalScore1;
+    public float finalScore1;
+
+    
     
     
 
@@ -21,6 +24,10 @@ public class Score : MonoBehaviour
         if(finalScore1 !< scoreText1){
             finalScore1=scoreText1; 
             scoreText.text=finalScore1.ToString("0");
+            PlayerPrefs.SetFloat("Score", finalScore1);
+
+
+            
         }
     }
     
